@@ -17,6 +17,7 @@
 		046D4D8C2496008700120869 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D4D8A2496008700120869 /* Models.swift */; };
 		046D4D9924960F0E00120869 /* Assest.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046D4D9824960F0E00120869 /* Assest.xcassets */; };
 		046D4DA924974B4900120869 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D4DA824974B4900120869 /* Country.swift */; };
+		54CC70962531FDDE00CD04E6 /* CountryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CC70952531FDDE00CD04E6 /* CountryVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		046D4D8A2496008700120869 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		046D4D9824960F0E00120869 /* Assest.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assest.xcassets; sourceTree = "<group>"; };
 		046D4DA824974B4900120869 /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		54CC70952531FDDE00CD04E6 /* CountryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CountryVC.swift; path = iOSClasswork8/ViewController/CountryVC.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				040FC8EB249331D600CC6A88 /* TableViewController.swift */,
+				54CC70952531FDDE00CD04E6 /* CountryVC.swift */,
 				046D4D872495822100120869 /* weatherDetails.swift */,
 			);
 			path = ViewController;
@@ -189,6 +192,7 @@
 				046D4D882495822100120869 /* weatherDetails.swift in Sources */,
 				040FC8D62493287C00CC6A88 /* SceneDelegate.swift in Sources */,
 				046D4D8C2496008700120869 /* Models.swift in Sources */,
+				54CC70962531FDDE00CD04E6 /* CountryVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,7 +338,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = "/Users/mac/Documents/IOS2020/KuwaitCodes2/day_8/ios-cw-8/IOSClasswork8/iOSClasswork8/info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/iOSClasswork8/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -352,7 +356,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = "/Users/mac/Documents/IOS2020/KuwaitCodes2/day_8/ios-cw-8/IOSClasswork8/iOSClasswork8/info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/iOSClasswork8/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
